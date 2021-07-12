@@ -193,7 +193,7 @@ This target is used for 2D Object Detection and describes 2D bounding box in ima
 A bounding box is described by the left-top corner and its width and height.
 
 The [BoundingBox](#class_engine.target.BoundingBox) class has the following public methods:
-#### BoundingBox(name, left, top, width, height, score=0, segmentation=[], iscrowd=0, area=0)
+#### BoundingBox(name, left, top, width, height, score=0)
   Construct a new [BoundingBox](#class_engine.target.BoundingBox) object based on the given data.
   - *name* is expected to be a string or a number representing the class of the object.
   - *left* is expected to be a number representing the x position of the left-top corner.

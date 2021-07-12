@@ -148,7 +148,6 @@ class BoundingBox(Target):
     This target is used for 2D Object Detection.
     A bounding box is described by the left-top corner and its width and height.
     """
-
     def __init__(
         self,
         name,

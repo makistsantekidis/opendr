@@ -28,6 +28,9 @@ include_directories(
 
 catkin_install_python(PROGRAMS
    scripts/pose_estimation.py
+<<<<<<< HEAD
    scripts/detr.py
+=======
+>>>>>>> 12bd0b0c1e483e68f0e5e1748a42b2407ada7e37
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
